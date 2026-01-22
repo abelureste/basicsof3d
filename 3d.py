@@ -1,6 +1,6 @@
 import pygame
 import math
-from cube import faces, vertices
+from polyhedron import faces, vertices
 
 pygame.init()
 
@@ -50,7 +50,7 @@ def rotate_xz(xyz, angle):
 
 dz = 1
 angle = 0
-
+   
 def toggle_grid():
     pygame.draw.line(screen, "#D3D3D3", (400, 0), (400, 800))
     pygame.draw.line(screen, "#D3D3D3", (0, 400), (800, 400))
